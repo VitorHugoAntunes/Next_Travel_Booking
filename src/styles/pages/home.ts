@@ -1,16 +1,22 @@
 import { styled } from "..";
 
 export const HomeContainer = styled('div', {
+    width: "100%",
     display: 'flex',
     flexDirection: "column",
+    position: "relative",
 })
 
 export const CategoriesContainer = styled('div', {
+    position: "sticky",
+    zIndex: 5,
+    top: "0px",
     flex: 1,
     display: "flex",
     padding: "1rem 0",
     gap: "2rem",
     borderBottom: "3px solid $gray50",
+    background: "$white",
 
     a: {
         textDecoration: "none",
@@ -20,20 +26,22 @@ export const CategoriesContainer = styled('div', {
 
 export const RoomCardContainer = styled('div', {
     marginTop: "2rem",
+    marginBottom: "2rem",
 
-    display: "flex",
-    flexBasis: "100%",
-    flexWrap: "wrap",
-
-    justifyContent: "space-between"
+    width: "100%",
+    display: "grid",
+    gridTemplateColumns: "repeat(4, 25%)",
+    columnGap: "0.5rem",
+    rowGap: "3rem",
+    borderRadius: "16px",
 })
 
 export const RoomCard = styled('div', {
     width: "21rem",
     height: "25rem",
-    marginBottom: "2rem",
     padding: "0.5rem",
-    border: "2px solid $gray50",
+    background: "$gray50",
+    border: "2px solid $gray100",
     borderRadius: "16px",
     transition: "0.2s",
 
