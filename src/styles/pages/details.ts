@@ -10,10 +10,10 @@ export const DetailsContainer = styled('div', {
     position: "relative",
 
     "> .calendar": {
-        position: "fixed",
+        position: "sticky",
         bottom: 20,
-        left: "50%",
-        transform: "translateX(-50%)",
+        display: "flex",
+        justifyContent: "center",
 
         zIndex: 1000,
     }

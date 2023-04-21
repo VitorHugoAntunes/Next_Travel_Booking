@@ -15,6 +15,8 @@ export const globalStyles = globalCss({
         maxWidth: "90rem",
         marginLeft: "auto",
         marginRight: "auto",
+        scrollbarWidth: "thin",
+        scrollbarColor: "transparent"
     },
 
     'body, input, textarea, button': {
@@ -28,5 +30,19 @@ export const globalStyles = globalCss({
         margin: 0,
         cursor: "pointer",
         lineHeight: 0
+    },
+
+    "body::-webkit-scrollbar": {
+        color: "$gray900",
+        scrollbarWidth: "thin",
+    },
+
+    "body::-webkit-scrollbar-thumb": {
+        backgroundColor: "$gray500",
+        borderRadius: "20px",
+    },
+
+    "body::-webkit-scrollbar-thumb:hover": {
+        backgroundColor: "#a9a9a9",
     }
 })
