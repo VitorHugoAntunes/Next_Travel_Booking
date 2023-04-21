@@ -30,14 +30,20 @@ export const RoomCardContainer = styled('div', {
 
     width: "100%",
     display: "grid",
-    gridTemplateColumns: "repeat(4, 25%)",
-    columnGap: "0.5rem",
+    gridTemplateColumns: "repeat(4, 1fr)",
+    columnGap: "2rem",
     rowGap: "3rem",
     borderRadius: "16px",
+
+    a: {
+        flex: 1,
+        all: "unset !important",
+        padding: 0,
+        boxSizing: "border-box"
+    }
 })
 
 export const RoomCard = styled('div', {
-    width: "21rem",
     height: "25rem",
     padding: "0.5rem",
     background: "$gray50",
@@ -69,15 +75,29 @@ export const ImageContainer = styled('div', {
         display: "flex",
         alignItems: "center",
         justifyContent: "space-between",
+        opacity: "90%",
 
         div: {
             display: "flex",
             padding: "0.5rem",
             background: "$location",
-            opacity: "90%",
             borderRadius: "64px",
-
             gap: "0.5rem",
+        },
+
+        button: {
+            display: "flex",
+            alignItems: "center",
+            JustifyContent: "center",
+            padding: "0.5rem",
+            borderRadius: "50%",
+            color: "$gray600",
+            background: "$location",
+            transition: "0.2s",
+
+            "&:hover": {
+                opacity: 0.8
+            }
         }
     }
 })
@@ -106,18 +126,6 @@ export const RoomCardDetails = styled('div', {
             display: "flex",
             alignItems: "center",
             gap: "0.3rem"
-        }
-    },
-
-    "> div:last-child": {
-        "> div": {
-            background: "$gray50",
-            padding: "0.4rem",
-            borderRadius: "4px"
-        },
-
-        "> div span": {
-            fontSize: "0.9rem"
         }
     },
 

@@ -1,4 +1,4 @@
-export const data = [
+export const roomsData = [
     {
         id: 1,
         image: "https://lh3.googleusercontent.com/gps-proxy/AE4_-5FPjDfjyWoaKgMZM9FmKXXUZP9dUNE_sc5xtXyXm-2sX61lhN3gY2I9dUQQGe8ejE0iYDsXBAbXQNtOKAEvnALxrZ54EIWfgN6xVFsPUAAXuGdJqH-E-H6GxdtPZgir42Mfht2wZN3xiwkP8sn9I9SwEFtaiSr7iLtpGAcm_tElH0zJUxGJG3k=w296-h202-n-k-no-v1-rj",

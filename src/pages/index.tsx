@@ -1,10 +1,10 @@
+import RoomFeatures from "@/components/RoomFeatures";
 import { CategoriesContainer, HomeContainer, ImageContainer, RoomCard, RoomCardContainer, RoomCardDetails } from "@/styles/pages/home";
 import Image from "next/image";
 import Link from "next/link";
 import { FiHeart, FiMapPin, FiStar } from 'react-icons/fi';
-import { BiBed, BiBath, BiExpand } from 'react-icons/bi';
 
-import { data } from '../data/rooms';
+import { roomsData } from '../data/rooms';
 
 export default function Home() {
   return (
@@ -16,35 +16,32 @@ export default function Home() {
 
       <RoomCardContainer>
 
-        {data.map(room => (
-          <RoomCard key={room.id}>
-            <ImageContainer>
-              <div>
+        {roomsData.map(room => (
+          <Link href="/details" key={room.id}>
+            <RoomCard>
+              <ImageContainer>
                 <div>
-                  <FiMapPin size={20} />
-                  <span>{room.city}, {room.country}</span>
+                  <div>
+                    <FiMapPin size={20} />
+                    <span>{room.city}, {room.country}</span>
+                  </div>
+                  <button>
+                    <FiHeart size={24} />
+                  </button>
                 </div>
+                <Image src={room.image} width={300} height={250} alt="" />
+              </ImageContainer>
+
+              <RoomCardDetails>
                 <div>
-                  <FiHeart size={24} />
+                  <span>{room.name}</span> <div><FiStar size={20} color="#F2C90F" fill="#F2C90F" /> <span>{room.rating}</span></div>
                 </div>
-              </div>
-              <Image src={room.image} width={300} height={250} alt="" />
-            </ImageContainer>
+                <span>${room.price}</span>
+                <RoomFeatures beds={room.beds} baths={room.baths} size={room.size} />
+              </RoomCardDetails>
 
-            <RoomCardDetails>
-              <div>
-                <span>{room.name}</span> <div><FiStar size={20} color="#F2C90F" fill="#F2C90F" /> <span>{room.rating}</span></div>
-              </div>
-              <span>${room.price}</span>
-              <div>
-                <div><BiBed size={24} /> <span>{room.beds} camas</span></div>
-                <div><BiBath size={24} /> <span>{room.baths} banheiras</span></div>
-                <div><BiExpand size={24} /> <span>{room.size}km</span></div>
-              </div>
-
-            </RoomCardDetails>
-
-          </ RoomCard>
+            </ RoomCard>
+          </Link>
         ))}
 
 

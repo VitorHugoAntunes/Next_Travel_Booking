@@ -18,7 +18,8 @@ export const {
             location: '#DBE4ED',
 
             gray900: '#121214',
-            gray800: '#202024',
+            gray800: '#232631',
+            gray700: '#202024',
             gray500: '#a0a1a6',
             gray300: '#c4c4cc',
             gray100: '#e1e1e6',
