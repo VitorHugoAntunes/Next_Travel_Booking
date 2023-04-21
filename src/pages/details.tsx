@@ -58,7 +58,7 @@ export default function Details() {
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque temporibus sunt maxime molestiae fuga. Provident magni aliquam dolorum consequuntur, minima fuga, accusamus non commodi excepturi quaerat, ipsa rerum eveniet beatae.</p>
 
-                    <h3>Where you'll be</h3>
+                    <h3>Where you&apos;ll be</h3>
 
                     <DynamicMap />
                 </section>
