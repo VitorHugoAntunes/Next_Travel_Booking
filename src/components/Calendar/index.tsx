@@ -2,6 +2,9 @@ import * as Popover from '@radix-ui/react-popover';
 import { FiCalendar, FiX } from 'react-icons/fi'
 import { CalendarContainer, CalendarDiv } from './styles';
 
+import ReactCalendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
+
 export default function Calendar() {
     return (
         <CalendarContainer className="calendar">
@@ -18,7 +21,13 @@ export default function Calendar() {
                     <Popover.Content className="PopoverContent" sideOffset={5} side="top">
                         <CalendarDiv>
                             <div className='calendarContent'>
-                                Calendario
+                                <h2>Escolha uma data para a reserva:</h2>
+                                <div>
+                                    <div>
+                                        <h3>Entrada e saída</h3>
+                                        <ReactCalendar className="reactCalendar" selectRange={true} />
+                                    </div>
+                                </div>
                                 <Popover.Close className="PopoverClose" aria-label="Close">
                                     <FiX size={28} />
                                 </Popover.Close>

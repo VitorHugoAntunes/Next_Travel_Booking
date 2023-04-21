@@ -17,6 +17,12 @@ export const CalendarContainer = styled('div', {
             alignItems: "center",
             gap: "0.5rem",
 
+            span: {
+                color: "$blue",
+                fontSize: "1rem",
+                fontWeight: "bold",
+            },
+
             ".calendarIcon": {
                 background: "$blue",
                 padding: "0.5rem",
@@ -35,7 +41,7 @@ export const CalendarContainer = styled('div', {
 })
 
 export const CalendarDiv = styled('div', {
-    width: "45rem",
+    maxWidth: "45rem",
     height: "30rem",
     padding: "0.5rem",
     border: "2px solid $gray100",
@@ -54,11 +60,37 @@ export const CalendarDiv = styled('div', {
         position: "relative",
         borderRadius: "16px",
         background: "$white",
+
+        "> div": {
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            gap: "1rem",
+
+            "> div": {
+                marginTop: "2rem",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                gap: "1rem"
+            }
+        },
+
+        "> div .reactCalendar": {
+            width: "100%",
+            height: "100%",
+            borderRadius: "16px",
+
+            "button": {
+                borderRadius: "16px",
+            }
+        }
     },
 
     ".PopoverClose": {
         position: "absolute",
         right: "1rem",
+        top: "1rem",
         background: "none"
     }
 })
