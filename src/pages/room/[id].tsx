@@ -37,6 +37,10 @@ interface RoomProps {
 }
 
 export default function Details({ room }: RoomProps) {
+    const myLoader = () => {
+        return "https://lh3.googleusercontent.com/gps-proxy/AE4_-5FPjDfjyWoaKgMZM9FmKXXUZP9dUNE_sc5xtXyXm-2sX61lhN3gY2I9dUQQGe8ejE0iYDsXBAbXQNtOKAEvnALxrZ54EIWfgN6xVFsPUAAXuGdJqH-E-H6GxdtPZgir42Mfht2wZN3xiwkP8sn9I9SwEFtaiSr7iLtpGAcm_tElH0zJUxGJG3k=w296-h202-n-k-no-v1-rj"
+    }
+
     console.log(room.name, room.coordX, room.coordY)
     return (
         <>
@@ -62,7 +66,7 @@ export default function Details({ room }: RoomProps) {
 
                 <RoomImagesContainer>
                     <div>
-                        <Image src={room.image} alt="" width={500} height={300} />
+                        <Image loader={myLoader} src={room.image} alt="" width={500} height={300} />
                     </div>
                     <div>
                         <Image src={room.image} alt="" width={280} height={200} />
