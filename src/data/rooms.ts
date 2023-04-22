@@ -1,7 +1,7 @@
 export const roomsData = [
     {
         id: 1,
-        image: "https://lh3.googleusercontent.com/gps-proxy/AE4_-5FPjDfjyWoaKgMZM9FmKXXUZP9dUNE_sc5xtXyXm-2sX61lhN3gY2I9dUQQGe8ejE0iYDsXBAbXQNtOKAEvnALxrZ54EIWfgN6xVFsPUAAXuGdJqH-E-H6GxdtPZgir42Mfht2wZN3xiwkP8sn9I9SwEFtaiSr7iLtpGAcm_tElH0zJUxGJG3k=w296-h202-n-k-no-v1-rj",
+        image: "https://github.com/VitorHugoAntunes/Next_Travel_Booking/blob/master/public/mauritius.jpg?raw=true",
         city: "Poste Lafayette",
         country: "Mauritius",
         name: "Wang Nam Jai",
@@ -18,7 +18,7 @@ export const roomsData = [
     },
     {
         id: 2,
-        image: "https://lh3.googleusercontent.com/gps-proxy/AE4_-5FPjDfjyWoaKgMZM9FmKXXUZP9dUNE_sc5xtXyXm-2sX61lhN3gY2I9dUQQGe8ejE0iYDsXBAbXQNtOKAEvnALxrZ54EIWfgN6xVFsPUAAXuGdJqH-E-H6GxdtPZgir42Mfht2wZN3xiwkP8sn9I9SwEFtaiSr7iLtpGAcm_tElH0zJUxGJG3k=w296-h202-n-k-no-v1-rj",
+        image: "https://github.com/VitorHugoAntunes/Next_Travel_Booking/blob/master/public/mauritius.jpg?raw=true",
         city: "Belle Mare",
         country: "Mauritius",
         name: "Aqua Koh Samui",
@@ -35,7 +35,7 @@ export const roomsData = [
     },
     {
         id: 3,
-        image: "https://lh3.googleusercontent.com/gps-proxy/AE4_-5FPjDfjyWoaKgMZM9FmKXXUZP9dUNE_sc5xtXyXm-2sX61lhN3gY2I9dUQQGe8ejE0iYDsXBAbXQNtOKAEvnALxrZ54EIWfgN6xVFsPUAAXuGdJqH-E-H6GxdtPZgir42Mfht2wZN3xiwkP8sn9I9SwEFtaiSr7iLtpGAcm_tElH0zJUxGJG3k=w296-h202-n-k-no-v1-rj",
+        image: "https://github.com/VitorHugoAntunes/Next_Travel_Booking/blob/master/public/mauritius.jpg?raw=true",
         city: "Bophut",
         country: "Thailand",
         name: "Chan Granjang",
@@ -52,7 +52,7 @@ export const roomsData = [
     },
     {
         id: 4,
-        image: "https://lh3.googleusercontent.com/gps-proxy/AE4_-5FPjDfjyWoaKgMZM9FmKXXUZP9dUNE_sc5xtXyXm-2sX61lhN3gY2I9dUQQGe8ejE0iYDsXBAbXQNtOKAEvnALxrZ54EIWfgN6xVFsPUAAXuGdJqH-E-H6GxdtPZgir42Mfht2wZN3xiwkP8sn9I9SwEFtaiSr7iLtpGAcm_tElH0zJUxGJG3k=w296-h202-n-k-no-v1-rj",
+        image: "https://github.com/VitorHugoAntunes/Next_Travel_Booking/blob/master/public/mauritius.jpg?raw=true",
         city: "Koh Samui",
         country: "Mauritius",
         name: "Villa Aktsuki",
@@ -69,7 +69,7 @@ export const roomsData = [
     },
     {
         id: 5,
-        image: "https://lh3.googleusercontent.com/gps-proxy/AE4_-5FPjDfjyWoaKgMZM9FmKXXUZP9dUNE_sc5xtXyXm-2sX61lhN3gY2I9dUQQGe8ejE0iYDsXBAbXQNtOKAEvnALxrZ54EIWfgN6xVFsPUAAXuGdJqH-E-H6GxdtPZgir42Mfht2wZN3xiwkP8sn9I9SwEFtaiSr7iLtpGAcm_tElH0zJUxGJG3k=w296-h202-n-k-no-v1-rj",
+        image: "https://github.com/VitorHugoAntunes/Next_Travel_Booking/blob/master/public/mauritius.jpg?raw=true",
         city: "Koh Samui",
         country: "Mauritius",
         name: "Villa Aktsuki",
@@ -86,7 +86,7 @@ export const roomsData = [
     },
     {
         id: 6,
-        image: "https://lh3.googleusercontent.com/gps-proxy/AE4_-5FPjDfjyWoaKgMZM9FmKXXUZP9dUNE_sc5xtXyXm-2sX61lhN3gY2I9dUQQGe8ejE0iYDsXBAbXQNtOKAEvnALxrZ54EIWfgN6xVFsPUAAXuGdJqH-E-H6GxdtPZgir42Mfht2wZN3xiwkP8sn9I9SwEFtaiSr7iLtpGAcm_tElH0zJUxGJG3k=w296-h202-n-k-no-v1-rj",
+        image: "https://github.com/VitorHugoAntunes/Next_Travel_Booking/blob/master/public/mauritius.jpg?raw=true",
         city: "Koh Samui",
         country: "Mauritius",
         name: "Villa Aktsuki",
@@ -103,7 +103,7 @@ export const roomsData = [
     },
     {
         id: 7,
-        image: "https://lh3.googleusercontent.com/gps-proxy/AE4_-5FPjDfjyWoaKgMZM9FmKXXUZP9dUNE_sc5xtXyXm-2sX61lhN3gY2I9dUQQGe8ejE0iYDsXBAbXQNtOKAEvnALxrZ54EIWfgN6xVFsPUAAXuGdJqH-E-H6GxdtPZgir42Mfht2wZN3xiwkP8sn9I9SwEFtaiSr7iLtpGAcm_tElH0zJUxGJG3k=w296-h202-n-k-no-v1-rj",
+        image: "https://github.com/VitorHugoAntunes/Next_Travel_Booking/blob/master/public/mauritius.jpg?raw=true",
         city: "Koh Samui",
         country: "Mauritius",
         name: "Villa Aktsuki",
@@ -120,7 +120,7 @@ export const roomsData = [
     },
     {
         id: 8,
-        image: "https://lh3.googleusercontent.com/gps-proxy/AE4_-5FPjDfjyWoaKgMZM9FmKXXUZP9dUNE_sc5xtXyXm-2sX61lhN3gY2I9dUQQGe8ejE0iYDsXBAbXQNtOKAEvnALxrZ54EIWfgN6xVFsPUAAXuGdJqH-E-H6GxdtPZgir42Mfht2wZN3xiwkP8sn9I9SwEFtaiSr7iLtpGAcm_tElH0zJUxGJG3k=w296-h202-n-k-no-v1-rj",
+        image: "https://github.com/VitorHugoAntunes/Next_Travel_Booking/blob/master/public/mauritius.jpg?raw=true",
         city: "Koh Samui",
         country: "Mauritius",
         name: "Villa Aktsuki",

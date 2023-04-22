@@ -66,19 +66,19 @@ export default function Details({ room }: RoomProps) {
 
                 <RoomImagesContainer>
                     <div>
-                        <Image loader={myLoader} src={room.image} alt="" width={500} height={300} />
+                        <Image loading={"lazy"} src={room.image} alt="" width={500} height={300} placeholder="blur" blurDataURL={room.image} />
                     </div>
                     <div>
-                        <Image src={room.image} alt="" width={280} height={200} />
+                        <Image loading={"lazy"} src={room.image} alt="" width={280} height={200} placeholder="blur" blurDataURL={room.image} />
                     </div>
                     <div>
-                        <Image src={room.image} alt="" width={280} height={200} />
+                        <Image loading={"lazy"} src={room.image} alt="" width={280} height={200} placeholder="blur" blurDataURL={room.image} />
                     </div>
                     <div>
-                        <Image src={room.image} alt="" width={280} height={200} />
+                        <Image loading={"lazy"} src={room.image} alt="" width={280} height={200} placeholder="blur" blurDataURL={room.image} />
                     </div>
                     <div>
-                        <Image src={room.image} alt="" width={280} height={200} />
+                        <Image loading={"lazy"} src={room.image} alt="" width={280} height={200} placeholder="blur" blurDataURL={room.image} />
                         <button>Show all</button>
                     </div>
                 </RoomImagesContainer>
