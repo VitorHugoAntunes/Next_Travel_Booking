@@ -17,7 +17,7 @@ export default function Home() {
       <RoomCardContainer>
 
         {roomsData.map(room => (
-          <Link href="/details" key={room.id}>
+          <Link href={`/room/${room.id}`} key={room.id}>
             <RoomCard>
               <ImageContainer>
                 <div>

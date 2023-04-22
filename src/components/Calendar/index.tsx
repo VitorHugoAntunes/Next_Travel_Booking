@@ -5,7 +5,11 @@ import { CalendarContainer, CalendarDiv } from './styles';
 import ReactCalendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 
-export default function Calendar() {
+interface CalendarReservationProps {
+    price: number;
+}
+
+export default function Calendar({ price }: CalendarReservationProps) {
     return (
         <CalendarContainer className="calendar">
             <Popover.Root>
@@ -13,19 +17,20 @@ export default function Calendar() {
                     <div className="calendarMenu">
                         <div className="calendarIcon">
                             <FiCalendar size={20} />
+                            <span>Reserve</span>
                         </div>
-                        <span>Marque uma reserva</span>
+                        <span><strong>${price}</strong> per night</span>
                     </div>
                 </Popover.Trigger>
                 <Popover.Portal>
                     <Popover.Content className="PopoverContent" sideOffset={5} side="top">
                         <CalendarDiv>
                             <div className='calendarContent'>
-                                <h2>Escolha uma data para a reserva:</h2>
+                                <h2>Choose a date for booking:</h2>
                                 <div>
                                     <div>
-                                        <h3>Entrada e saída</h3>
-                                        <ReactCalendar className="reactCalendar" selectRange={true} />
+                                        <h3>Entry and exit</h3>
+                                        <ReactCalendar className="reactCalendar" selectRange={true} locale="En" />
                                     </div>
                                 </div>
                                 <Popover.Close className="PopoverClose" aria-label="Close">

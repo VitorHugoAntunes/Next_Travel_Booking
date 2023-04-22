@@ -13,7 +13,7 @@ export default function Header() {
                 </Link>
                 <div>
                     <FiSearch size={20} />
-                    <input type="text" placeholder="Para onde você quer ir?" />
+                    <input type="text" placeholder="Where do you want to go?" />
                 </div>
             </div>
 

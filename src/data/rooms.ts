@@ -12,6 +12,9 @@ export const roomsData = [
         beds: 6,
         baths: 6,
         size: 20,
+        coordX: -20.28224,
+        coordY: 57.7867405,
+        zoom: 15
     },
     {
         id: 2,
@@ -26,6 +29,9 @@ export const roomsData = [
         beds: 9,
         baths: 7,
         size: 22,
+        coordX: -20.28224,
+        coordY: 57.7867405,
+        zoom: 15
     },
     {
         id: 3,
@@ -40,6 +46,9 @@ export const roomsData = [
         beds: 5,
         baths: 3,
         size: 26,
+        coordX: -20.28224,
+        coordY: 57.7867405,
+        zoom: 15
     },
     {
         id: 4,
@@ -54,6 +63,9 @@ export const roomsData = [
         beds: 8,
         baths: 6,
         size: 24,
+        coordX: -20.28224,
+        coordY: 57.7867405,
+        zoom: 15
     },
     {
         id: 5,
@@ -68,6 +80,9 @@ export const roomsData = [
         beds: 4,
         baths: 3,
         size: 19,
+        coordX: -20.28224,
+        coordY: 57.7867405,
+        zoom: 15
     },
     {
         id: 6,
@@ -82,6 +97,9 @@ export const roomsData = [
         beds: 5,
         baths: 3,
         size: 22,
+        coordX: -20.28224,
+        coordY: 57.7867405,
+        zoom: 15
     },
     {
         id: 7,
@@ -96,6 +114,9 @@ export const roomsData = [
         beds: 8,
         baths: 6,
         size: 24,
+        coordX: -20.28224,
+        coordY: 57.7867405,
+        zoom: 15
     },
     {
         id: 8,
@@ -110,5 +131,8 @@ export const roomsData = [
         beds: 4,
         baths: 2,
         size: 18,
+        coordX: -20.28224,
+        coordY: 57.7867405,
+        zoom: 15
     },
 ]

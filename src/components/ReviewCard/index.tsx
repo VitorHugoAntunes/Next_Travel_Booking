@@ -1,10 +1,14 @@
 import { FiStar } from "react-icons/fi";
 import { ReviewCardContainer } from "./styles";
 
-export default function ReviewCard() {
+interface ReviewCardProps {
+    rating: number;
+}
+
+export default function ReviewCard({ rating }: ReviewCardProps) {
     return (
         <ReviewCardContainer>
-            <div className="rating"><FiStar size={30} color="#F2C90F" fill="#F2C90F" /> <span><strong>4.8</strong> (256 reviews)</span></div>
+            <div className="rating"><FiStar size={30} color="#F2C90F" fill="#F2C90F" /> <span><strong>{rating}</strong> (256 reviews)</span></div>
 
             <div>
                 <span>Cleanlines</span>

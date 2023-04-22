@@ -26,9 +26,17 @@ export const CalendarContainer = styled('div', {
             ".calendarIcon": {
                 background: "$blue",
                 padding: "0.5rem",
-                borderRadius: "50%",
+                borderRadius: "32px",
+
+                display: "flex",
+                alignItems: "center",
+                gap: "0.3rem",
 
                 svg: {
+                    color: "$white"
+                },
+
+                span: {
                     color: "$white"
                 }
             },
